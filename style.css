@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Train+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav {
+    background-color: gray;
+}
+
+.logo-text {
+    font-size: 3em;
+    font-family: 'Train One', cursive;
+    font-weight: 700;
+    background-color: rgb(65, 65, 65);
+    padding: 1px 15px;
+    border-radius: 20px;
+}
+
+.logo-text a {
+    text-decoration: none;
+    color: #F05136;
+}
+
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #F05136;
+    outline: none;
+    font-weight: 800;
+    background-color: rgb(180, 180, 180);
+    transition: 0.5s;
+}
+
+.div-main {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.div-main h1 {
+    padding-top: 50vh;
+    font-size: 75px;
+}
+
+header>div {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    font-size: 1.8em;
+    color: #F05136;
+    width: 300px;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+#personalDetails {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skill-logo img {
+    width: 200px;
+    height: auto;
+    padding-right: 200px;
+}
+
+.skill-logo {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+main {
+    background-color: #ffe066;
+    text-align: center;
+}
+
+main h1 {
+    color: gray;
+    font-size: 50px;
+    text-decoration: underline;
+}
